@@ -1,11 +1,10 @@
 ﻿'use strict';
 
 function pattern(n){
-    var output=[];
-    n = `${n}`
-    const num = Array(n.at(-1))
-    console.log(n.at(-1))
-    // return output;
+    let output=[];
+    for(let i = 0; i < n; i++){
+        // output[i] = (`${n}`.at(-1))
+    }
 }
 
 pattern(15)
